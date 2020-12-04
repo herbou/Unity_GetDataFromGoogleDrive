@@ -2,7 +2,5 @@
 
 
 ```diff 
-hh
-- FILE_ID 
-nn
+hh - FILE_ID nn
 ```
