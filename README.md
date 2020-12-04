@@ -1,5 +1,6 @@
 # UNITY : Get data from Google Drive
 
+use the direct links.
 
 
 ### ![#ff4455](https://via.placeholder.com/15/ff4455/000000?text=+) Google Drive default link :
