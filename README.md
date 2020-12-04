@@ -14,7 +14,8 @@ https<span>://drive<span>.google<span>.com/file/d/***FILE_ID***/view?usp=sharing
 ht<span>tps://drive<span>.google<span>.com/uc?export=download&id=***FILE_ID***
   
   
-Or you can use **Google Drive Download Link Generator**
+Or you can use **Google Drive Download Link Generator** :
+
 [https://herbou.github.io/GoogleDriveDownloadLinkGenerator/](https://herbou.github.io/GoogleDriveDownloadLinkGenerator/)
   
 
