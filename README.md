@@ -2,6 +2,9 @@
 
 use direct download links.
 
+### Video tutorial 👉 : [https://youtu.be/Cawemvq92E0](https://youtu.be/Cawemvq92E0)
+![Video thumbnail](https://img.youtube.com/vi/Cawemvq92E0/0.jpg)
+
 
 ### ![#ff4455](https://via.placeholder.com/15/ff4455/000000?text=+) Google Drive default preview link :
 
