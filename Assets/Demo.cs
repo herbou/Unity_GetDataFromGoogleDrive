@@ -3,7 +3,7 @@ using UnityEngine.Networking ;
 using UnityEngine.UI ;
 using System.Collections ;
 
-// Json element data
+// Json data format
 public struct Data {
    public string Name ;
    public string ImageURL ;
@@ -28,16 +28,17 @@ public class Demo : MonoBehaviour {
          // error ...
 
       } else {
-         //success...
+         // success...
          Data data = JsonUtility.FromJson<Data> (request.downloadHandler.text) ;
 
-         //print data in UI
+         // print data in UI
          uiNameText.text = data.Name ;
 
-         //Load image:
+         // Load image:
          StartCoroutine (GetImage (data.ImageURL)) ;
       }
-
+      
+      // Clean up any resources it is using.
       request.Dispose () ;
    }
 
@@ -54,6 +55,7 @@ public class Demo : MonoBehaviour {
          uiRawImage.texture = ((DownloadHandlerTexture)request.downloadHandler).texture ;
       }
 
+      // Clean up any resources it is using.
       request.Dispose () ;
    }
 
