@@ -4,6 +4,12 @@ using UnityEngine.UI ;
 using System.Collections ;
 
 // Json data format
+/*
+      {
+        "Name"     : "..." ,
+        "ImageURL" : "..."
+      }
+*/
 public struct Data {
    public string Name ;
    public string ImageURL ;
